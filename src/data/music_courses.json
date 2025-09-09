@@ -1,105 +1,95 @@
 {
     "courses": [
-      {
-        "id": 1,
-        "title": "Guitar Fundamentals",
-        "slug": "guitar-fundamentals",
-        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
-        "price": 99.99,
-        "instructor": "John Doe",
-        "isFeatured": true,
-        "image": "/courses/guitar.jpg" 
-      },
-      {
-        "id": 2,
-        "title": "Piano for Beginners",
-        "slug": "piano-for-beginners",
-        "description": "Start your musical journey with foundational piano skills taught by expert instructors.",
-        "price": 109.99,
-        "instructor": "Jane Smith",
-        "isFeatured": false,
-        "image": "/courses/piano.jpg" 
-      },
-      {
-        "id": 3,
-        "title": "Advanced Vocal Techniques",
-        "slug": "advanced-vocal-techniques",
-        "description": "Enhance your singing with advanced vocal techniques for intermediate to advanced learners.",
-        "price": 119.99,
-        "instructor": "Emily Johnson",
-        "isFeatured": true,
-        "image": "/courses/vocalist.jpg" 
-      },
-      {
-        "id": 4,
-        "title": "Drumming Mastery",
-        "slug": "drumming-mastery",
-        "description": "Master the drums with our comprehensive course covering all skill levels.",
-        "price": 129.99,
-        "instructor": "Mike Brown",
-        "isFeatured": false,
-        "image": "/courses/drumming.jpg"
-      },
-      {
-        "id": 5,
-        "title": "Jazz Improvisation",
-        "slug": "jazz-improvisation",
-        "description": "Learn the art of jazz improvisation with this course designed for all levels.",
-        "price": 139.99,
-        "instructor": "Chris Davis",
-        "isFeatured": false,
-        "image": "/courses/jazz.jpg"
-      },
-      {
-        "id": 6,
-        "title": "Music Production Fundamentals",
-        "slug": "music-production-fundamentals",
-        "description": "Dive into music production with this introductory course on the basics of sound engineering and mixing.",
-        "price": 149.99,
-        "instructor": "Alex Wilson",
-        "isFeatured": true,
-        "image": "/courses/music-prod.jpg"
-      },
-      {
-        "id": 7,
-        "title": "Songwriting Essentials",
-        "slug": "songwriting-essentials",
-        "description": "Learn the essentials of songwriting to express your musical creativity.",
-        "price": 159.99,
-        "instructor": "Samantha Miller",
-        "isFeatured": false,
-        "image": "/courses/song-writing.jpg"
-      },
-      {
-        "id": 8,
-        "title": "Electronic Music Production",
-        "slug": "electronic-music-production",
-        "description": "Create compelling electronic music with our course designed for beginners to advanced users.",
-        "price": 169.99,
-        "instructor": "Luke Harris",
-        "isFeatured": true,
-        "image": "/courses/music-prod.jpg"
-      },
-      {
-        "id": 9,
-        "title": "Classical Music History",
-        "slug": "classical-music-history",
-        "description": "Explore the rich history of classical music from its origins to the present day.",
-        "price": 179.99,
-        "instructor": "Grace Lee",
-        "isFeatured": false,
-        "image": "/courses/classical-music.jpg"
-      },
-      {
-        "id": 10,
-        "title": "Blues Guitar Techniques",
-        "slug": "blues-guitar-techniques",
-        "description": "Discover the techniques of blues guitar to add soul and depth to your playing.",
-        "price": 189.99,
-        "instructor": "Ethan Moore",
-        "isFeatured": true,
-        "image": "/courses/blues.jpg"
-      }
-    ]
+  {
+    "category": "Sofas",
+    "productName": "Modern L-Shape Sofa",
+    "price": 799,
+    "description": "Comfortable L-shaped sofa with premium fabric, suitable for living rooms. Available in grey and beige.",
+    "size": "280cm x 180cm",
+    "material": "Solid wood frame, high-density foam",
+    "image": "https://images.unsplash.com/photo-1615873968403-89cd5fb8df5b"
+  },
+  {
+    "category": "Sofas",
+    "productName": "Velvet 3-Seater Sofa",
+    "price": 599,
+    "description": "Luxurious 3-seater sofa upholstered in soft velvet. Comes with two cushions.",
+    "size": "220cm x 90cm",
+    "material": "Velvet, metal legs",
+    "image": "https://images.unsplash.com/photo-1616627986600-d9e39a9adcc5"
+  },
+  {
+    "category": "Sofas",
+    "productName": "Recliner Sofa",
+    "price": 699,
+    "description": "Recliner sofa with adjustable headrests and footrests. Ideal for relaxation and home theaters.",
+    "size": "240cm x 100cm",
+    "material": "Leatherette, steel mechanism",
+    "image": "https://images.unsplash.com/photo-1598300053362-df46e1d818ef"
+  },
+  {
+    "category": "Tables",
+    "productName": "Oak Dining Table (6-Seater)",
+    "price": 499,
+    "description": "Solid oak wood table perfect for family dining. Smooth finish, durable design.",
+    "size": "180cm x 90cm",
+    "material": "Oak wood",
+    "image": "https://images.unsplash.com/photo-1582582494700-9f9f1c1234c3"
+  },
+  {
+    "category": "Tables",
+    "productName": "Glass Coffee Table",
+    "price": 199,
+    "description": "Modern coffee table with tempered glass top and wooden legs. Stylish and minimal.",
+    "size": "120cm x 60cm",
+    "material": "Tempered glass, oak wood",
+    "image": "https://images.unsplash.com/photo-1606813908330-3c1a299c86d1"
+  },
+  {
+    "category": "Tables",
+    "productName": "Round Marble Dining Table",
+    "price": 649,
+    "description": "Elegant round dining table with real marble top and golden metal base.",
+    "size": "140cm diameter",
+    "material": "Marble, metal",
+    "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb"
+  },
+  {
+    "category": "Chairs",
+    "productName": "Modern Accent Chair",
+    "price": 129,
+    "description": "Stylish chair with soft padding and curved backrest. Ideal for living rooms or reading corners.",
+    "size": "75cm x 70cm",
+    "material": "Linen fabric, wooden legs",
+    "image": "https://images.unsplash.com/photo-1615873968403-3e5d57f62061"
+  },
+  {
+    "category": "Chairs",
+    "productName": "Leather Office Chair",
+    "price": 189,
+    "description": "Ergonomic office chair with lumbar support and adjustable height. High-back design.",
+    "size": "110cm x 65cm",
+    "material": "PU leather, metal base",
+    "image": "https://images.unsplash.com/photo-1616627986600-124b2d17b5b9"
+  },
+  {
+    "category": "Chairs",
+    "productName": "Dining Chair Set (2 pcs)",
+    "price": 179,
+    "description": "Set of 2 dining chairs with cushioned seats and solid wood legs. Perfect match for any dining table.",
+    "size": "95cm x 45cm",
+    "material": "Polyester fabric, solid wood",
+    "image": "https://images.unsplash.com/photo-1616627986600-56474a68fbc1"
+  },
+  {
+    "category": "Chairs",
+    "productName": "Rocking Chair",
+    "price": 249,
+    "description": "Classic wooden rocking chair with high backrest and smooth motion. Great for nurseries and patios.",
+    "size": "105cm x 60cm",
+    "material": "Teak wood",
+    "image": "https://images.unsplash.com/photo-1616627986600-73a7e5fc90d0"
+  }
+]
   }
   

@@ -12,12 +12,20 @@ function page() {
             {courseData.courses.map((course) => (
                 <CardContainer className="inter-var m-4">
                 <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+                 <div className="flex justify-between items-center">
                   <CardItem
                     translateZ="50"
                     className="text-xl font-bold text-neutral-600 dark:text-white"
                   >
-                    {course.title}
+                    {course.category}
                   </CardItem>
+                  <CardItem
+                    translateZ="50"
+                    className="text-md font-bold text-neutral-600 dark:text-white"
+                  >
+                    {course.productName }
+                  </CardItem>
+                  </div>
                   <CardItem
                     as="p"
                     translateZ="60"
@@ -31,9 +39,32 @@ function page() {
                       height="1000"
                       width="1000"
                       className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
-                      alt={course.title}
+                      alt={course.material}
                     />
                   </CardItem>
+                  <div className="flex justify-between items-center mt-20">
+                    <CardItem
+                      translateZ={20}
+                      as="button"
+                      className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                    >
+                      ₹{course.price}
+                    </CardItem>
+                    <CardItem
+                      translateZ={20}
+                      as="button"
+                      className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                    >
+                      ₹{course.size}
+                    </CardItem>
+                    <CardItem
+                      translateZ={20}
+                      as="button"
+                      className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                    >
+                    {course.material}
+                    </CardItem>
+                  </div>
                   <div className="flex justify-between items-center mt-20">
                     <CardItem
                       translateZ={20}
